@@ -1,0 +1,40 @@
+
+.container {
+    float: left;
+    width: auto;
+    height: 500px;
+    margin-right: 5px;
+    background-color: white;
+    border: solid 2px #c9c9c9;    
+}
+
+.cronometro {
+    width: 140px;
+    height: 132px;
+}
+
+.cronometro tr td{
+    background: url(imagens/cronometro.png);
+    text-align: center;
+}
+
+#cenario {
+    float: left;
+    width: 600px;
+    height: 500px;
+    background: url(imagens/cenario.png);
+    background-position: bottom;
+}
+
+#cenario img {
+    margin: 10px;
+}
+
+#tempoSeg {
+    font-size: 30px;
+    color: red;
+}
+
+table tr td span{
+    font-size: 40px;
+}
